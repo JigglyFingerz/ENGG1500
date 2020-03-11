@@ -4,14 +4,15 @@
 int main()
 {
     int a, b, q, r;
-    scanf("%f %f", &a, &b);
+    scanf("%d %d", &a, &b);
     if(b==0) {
         printf("Division by zero error ");
     }
     else {
     q = a/b;
     r = a%b;
-    }
+
     printf("'a' divided by 'b' is %d\n", q);
-    printf("and the remainder is %f", r);
+    printf("and the remainder is %d", r);
+    }
 }
